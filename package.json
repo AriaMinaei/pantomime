@@ -1,31 +1,24 @@
 {
   "name": "pantomime",
   "version": "0.0.0",
-  "description": "pantomime",
-  "main": "index.js",
+  "description": "(work in progress)",
+  "main": "scripts/js/lib/Pantomime.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "coffee-script": "~1.6.3"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node ./node_modules/coffee-script/bin/cake test",
     "prepublish": "node ./node_modules/coffee-script/bin/cake build"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/AriaMinaei/pantomime.git"
   },
-  "keywords": [
-    "touch",
-    "gesture",
-    "pointer"
-  ],
   "author": "Aria Minaei",
   "license": "MIT",
-  "readmeFilename": "README.md",
-  "devDependencies": {
-    "mocha": "~1.12.0",
-    "chai": "~1.7.2"
-  },
-  "dependencies": {
-    "coffee-script": "~1.6.3",
-    "amdefine": "0.0.8",
-    "jade": "*"
+  "bugs": {
+    "url": "https://github.com/AriaMinaei/pantomime/issues"
   }
 }

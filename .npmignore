@@ -1,9 +1,8 @@
 *.bat
 .htaccess
 
-scripts/js/**
-scripts/coffee/pg/**
 xeno/**
+scripts/coffee/pg/**
 node_modules
 
 -p
